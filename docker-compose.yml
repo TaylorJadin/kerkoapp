@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  kerkoapp:
+    image: whiskyechobravo/kerkoapp
+    container_name: kerkoapp
+    restart: unless-stopped
+    volumes:
+    - './instance:/kerkoapp/instance'
+    ports:
+      - "80:80"
