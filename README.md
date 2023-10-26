@@ -1,6 +1,6 @@
 # README
 
-This is a docker installation of KerkoApp based on the instructions found here:
+This is a docker-compose based installation of KerkoApp based on the instructions found here:
 [Getting Started - Kerko](https://whiskyechobravo.github.io/kerko/1.0/getting-started/#docker-installation)
 
 ## Commands:
