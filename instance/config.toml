@@ -1,5 +1,3 @@
-# Sample config.toml file to show the most frequently used configuration parameters.
-
 ZOTERO_LIBRARY_ID = ""  # Set this to your Zotero library ID.
 ZOTERO_LIBRARY_TYPE = "group"  # Set to "user" for a personal library.
 
