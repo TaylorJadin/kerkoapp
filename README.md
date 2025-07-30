@@ -40,3 +40,12 @@ Update to the latest version:
 ```
 make update
 ```
+
+## Syncing content
+
+`make sync` will run `flask kerko sync` in a shell inside the container, [which will do an incremental sync of the index, cache, and attachments from Zotero.](https://whiskyechobravo.github.io/kerko/latest/synchronization/#command-line-interface-cli)
+
+There is also a `sync.sh` script in this repo to make it simple to schedule a recurring sync via the crontab like this:
+```
+@daily /root/kerkoapp/sync.sh > /root/kerkoapp/sync.log 2>&1
+```
