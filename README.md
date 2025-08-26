@@ -11,7 +11,7 @@ Before running any of the commands below, you'll first need to change to the dir
 cd /root/kerkoapp
 ```
 
-This repository uses a makefile to make certain commands shorter to type and easier to remember. If you get an error that the make command is note found you may need to install it.:
+This repository uses a makefile to make certain commands shorter to type and easier to remember. If you get an error that the make command is not found you may need to install it:
 ```
 yum install make -y
 ```
